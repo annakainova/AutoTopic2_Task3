@@ -19,6 +19,6 @@ class postTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("This is my message!"));
+                .body("data", equalTo("This is not my message!"));
     }
 }
